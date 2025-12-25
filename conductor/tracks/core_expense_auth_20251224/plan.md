@@ -24,7 +24,7 @@ This plan outlines the steps to build the core expense logging and user authenti
   - [ ] Attach Task Summary with Git Notes
   - [ ] Record Task Commit SHA
   - [ ] Commit Plan Update
-- [ ] Task: Implement User Login
+- [x] Task: Implement User Login [0f7c5f8]
   - [ ] Write Tests: Create unit/integration tests for user login with valid and invalid credentials.
   - [ ] Implement: Build UI for user login (email, password).
   - [ ] Implement: Integrate with Supabase Auth for user sign-in.
