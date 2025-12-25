@@ -1,0 +1,109 @@
+# Plan: Build Core Expense Logging and User Authentication Features
+
+This plan outlines the steps to build the core expense logging and user authentication features for the Mobile Expense Tracker application.
+
+## Phase 1: Setup and User Authentication
+
+- [ ] Task: Set up React Native project
+  - [ ] Write Tests: N/A (Project setup)
+  - [ ] Implement: Initialize a new React Native project with TypeScript support.
+  - [ ] Implement: Configure Supabase client in the React Native project.
+  - [ ] Implement: Set up basic navigation structure (e.g., login, register, home screens).
+  - [ ] Verify Coverage: N/A
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement User Registration
+  - [ ] Write Tests: Create unit/integration tests for user registration with valid and invalid credentials.
+  - [ ] Implement: Build UI for user registration (email, password).
+  - [ ] Implement: Integrate with Supabase Auth for user sign-up.
+  - [ ] Implement: Handle successful registration and errors.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement User Login
+  - [ ] Write Tests: Create unit/integration tests for user login with valid and invalid credentials.
+  - [ ] Implement: Build UI for user login (email, password).
+  - [ ] Implement: Integrate with Supabase Auth for user sign-in.
+  - [ ] Implement: Handle successful login and errors, store session securely.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement User Logout
+  - [ ] Write Tests: Create tests for logging out a user and clearing the session.
+  - [ ] Implement: Add logout functionality and clear user session using Supabase Auth.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Set up Supabase Database Schema for Expenses and Categories
+  - [ ] Write Tests: N/A (Database schema setup)
+  - [ ] Implement: Define `expenses` table schema in Supabase (id, user_id, amount, category_id, date, description).
+  - [ ] Implement: Define `categories` table schema in Supabase (id, user_id, name).
+  - [ ] Implement: Implement Row Level Security (RLS) policies for `expenses` and `categories` tables to restrict access to user's own data.
+  - [ ] Verify Coverage: N/A
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup and User Authentication' (Protocol in workflow.md)
+
+## Phase 2: Core Expense Management
+
+- [ ] Task: Implement Expense Creation
+  - [ ] Write Tests: Create unit/integration tests for adding new expenses with all required fields.
+  - [ ] Implement: Build UI for adding a new expense (amount, category selection, date picker, description input).
+  - [ ] Implement: Integrate with Supabase API to insert new expense records.
+  - [ ] Implement: Handle successful expense creation and errors.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement Expense Listing
+  - [ ] Write Tests: Create unit/integration tests for fetching and displaying a list of expenses for the logged-in user.
+  - [ ] Implement: Build UI to display a list of all recorded expenses.
+  - [ ] Implement: Integrate with Supabase API to fetch expenses for the current user.
+  - [ ] Implement: Display expenses with their amount, category, date, and description.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement Expense Editing
+  - [ ] Write Tests: Create unit/integration tests for updating an existing expense record.
+  - [ ] Implement: Build UI to edit an existing expense (pre-populate fields, allow modifications).
+  - [ ] Implement: Integrate with Supabase API to update expense records.
+  - [ ] Implement: Handle successful update and errors.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement Expense Deletion
+  - [ ] Write Tests: Create unit/integration tests for deleting an expense record.
+  - [ ] Implement: Add functionality (e.g., button, swipe action) to delete an expense.
+  - [ ] Implement: Integrate with Supabase API to delete expense records.
+  - [ ] Implement: Add a confirmation dialog before deletion.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Implement Default and Custom Categories Management
+  - [ ] Write Tests: Create tests for creating, editing, and deleting custom categories.
+  - [ ] Implement: Seed default categories into the Supabase `categories` table.
+  - [ ] Implement: Build UI for managing custom categories (add, edit, delete).
+  - [ ] Implement: Integrate with Supabase API for category CRUD operations.
+  - [ ] Verify Coverage
+  - [ ] Commit Code Changes
+  - [ ] Attach Task Summary with Git Notes
+  - [ ] Record Task Commit SHA
+  - [ ] Commit Plan Update
+- [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Expense Management' (Protocol in workflow.md)
