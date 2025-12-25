@@ -4,7 +4,7 @@ This plan outlines the steps to build the core expense logging and user authenti
 
 ## Phase 1: Setup and User Authentication
 
-- [ ] Task: Set up React Native project
+- [x] Task: Set up React Native project [d17fb46]
   - [ ] Write Tests: N/A (Project setup)
   - [ ] Implement: Initialize a new React Native project with TypeScript support.
   - [ ] Implement: Configure Supabase client in the React Native project.
