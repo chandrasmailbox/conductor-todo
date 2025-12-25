@@ -2,7 +2,7 @@
 
 ## Frontend: React Native
 - **Framework:** React Native for building cross-platform mobile applications.
-- **Language:** JavaScript/TypeScript.
+- **Language:** TypeScript.
 - **UI/UX:** Leveraging React Native's component-based architecture for a fluid and responsive user interface, adhering to platform-specific (iOS/Android) design guidelines where appropriate, or a consistent custom design.
 
 ## Backend: Supabase

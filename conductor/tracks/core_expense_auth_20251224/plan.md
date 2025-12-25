@@ -34,7 +34,7 @@ This plan outlines the steps to build the core expense logging and user authenti
   - [ ] Attach Task Summary with Git Notes
   - [ ] Record Task Commit SHA
   - [ ] Commit Plan Update
-- [ ] Task: Implement User Logout
+- [~] Task: Implement User Logout
   - [ ] Write Tests: Create tests for logging out a user and clearing the session.
   - [ ] Implement: Add logout functionality and clear user session using Supabase Auth.
   - [ ] Verify Coverage
